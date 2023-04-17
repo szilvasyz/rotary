@@ -3,10 +3,10 @@
     "configurations": [
         {
             "name": "Arduino",
-            "compilerPath": "C:\\Users\\user\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino5\\bin\\avr-g++",
+            "compilerPath": "/Users/szilva/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
             "compilerArgs": [
                 "-w",
-                "-std=gnu++11",
+                "-std=gnu++17",
                 "-fno-exceptions",
                 "-ffunction-sections",
                 "-fdata-sections",
@@ -14,17 +14,17 @@
             ],
             "intelliSenseMode": "gcc-x64",
             "includePath": [
-                "C:\\Users\\user\\AppData\\Local\\Arduino15\\packages\\MightyCore\\hardware\\avr\\2.0.3\\cores\\MCUdude_corefiles",
-                "C:\\Users\\user\\AppData\\Local\\Arduino15\\packages\\MightyCore\\hardware\\avr\\2.0.3\\variants\\standard",
-                "c:\\users\\user\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino5\\lib\\gcc\\avr\\7.3.0\\include",
-                "c:\\users\\user\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino5\\lib\\gcc\\avr\\7.3.0\\include-fixed",
-                "c:\\users\\user\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino5\\avr\\include"
+                "/Users/szilva/Library/Arduino15/packages/MightyCore/hardware/avr/2.2.1/cores/MCUdude_corefiles",
+                "/Users/szilva/Library/Arduino15/packages/MightyCore/hardware/avr/2.2.1/variants/standard",
+                "/Users/szilva/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include",
+                "/Users/szilva/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include-fixed",
+                "/Users/szilva/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include"
             ],
             "forcedInclude": [
-                "C:\\Users\\user\\AppData\\Local\\Arduino15\\packages\\MightyCore\\hardware\\avr\\2.0.3\\cores\\MCUdude_corefiles\\Arduino.h"
+                "/Users/szilva/Library/Arduino15/packages/MightyCore/hardware/avr/2.2.1/cores/MCUdude_corefiles/Arduino.h"
             ],
             "cStandard": "c11",
-            "cppStandard": "c++11",
+            "cppStandard": "c++17",
             "defines": [
                 "F_CPU=16000000L",
                 "ARDUINO=10607",

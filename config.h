@@ -11,8 +11,10 @@
 #define ROTB_PINS PIND
 #define ROTB_PIN  3
 
-#define ENCODER_INT_VECT    INT0_vect
-#define ENCODER_INT_SETUP() { MCUCR |= _BV(ISC00); GICR |= _BV(INT0); }
+#define ENCODER_INTA_VECT    INT0_vect
+#define ENCODER_INTA_SETUP() { MCUCR |= _BV(ISC00); GICR |= _BV(INT0); }
+#define ENCODER_INTB_VECT    INT1_vect
+#define ENCODER_INTB_SETUP() { MCUCR |= _BV(ISC10); GICR |= _BV(INT1); }
 
 
 #define ENABLE_SERIAL
