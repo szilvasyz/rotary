@@ -58,7 +58,7 @@ t_state stateMachine(uint8_t input) {
 }
 
 void doStateChange() {
-  stateMachine((!!(ROTA_PINS & _BV(ROTA_PIN)) << 1) | !!(ROTB_PINS & _BV(ROTB_PIN)));
+  stateMachine((!(ROTA_PINS & _BV(ROTA_PIN)) << 1) | !(ROTB_PINS & _BV(ROTB_PIN)));
 }
 
 ISR(ENCODER_INTA_VECT) {

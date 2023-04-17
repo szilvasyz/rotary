@@ -1,6 +1,6 @@
 {
-    "configuration": "bootloader=uart0,pinout=standard,BOD=2v7,LTO=Os,clock=16MHz_external",
-    "board": "MightyCore:avr:32",
+    "configuration": "bootloader=uart0,pinout=standard,variant=modelP,BOD=2v7,LTO=Os,clock=16MHz_external",
+    "board": "MightyCore:avr:1284",
     "sketch": "rotary.ino",
-    "port": "/dev/tty.usbserial-1420"
+    "port": "COM6"
 }

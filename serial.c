@@ -101,6 +101,7 @@ char serial_read( void )
 SIGNAL(USART_RX_vect)
 {
   char rx = UDR0;
+
   if( !RingBuffer_IsFull( &comms_rx_buffer ) )
   {
     RingBuffer_Insert( &comms_rx_buffer, rx );
