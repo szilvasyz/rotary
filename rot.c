@@ -24,14 +24,14 @@ typedef struct t_stateChange {
 
 t_stateChange stateTab[] = {
   {SX00, SL01, 0b01, 0},
-  {SL01, SL11, 0b11, 1},
-  {SL11, SL10, 0b10, 0},
+  {SL01, SL11, 0b11, 0},
+  {SL11, SR10, 0b10, 1},
   {SL10, SX00, 0b00, 0},
   {SL01, SX00, 0b00, 0},
   {SL11, SX00, 0b00, 0},
   {SX00, SR10, 0b10, 0},
-  {SR10, SR11, 0b11, -1},
-  {SR11, SR01, 0b01, 0},
+  {SR10, SR11, 0b11, 0},
+  {SR11, SL01, 0b01, -1},
   {SR01, SX00, 0b00, 0},
   {SR10, SX00, 0b00, 0},
   {SR11, SX00, 0b00, 0}
